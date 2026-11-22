@@ -1,7 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { StickyCta } from "@/components/StickyCta";
 
 const inter = Inter({ subsets: ["latin"], display: "swap" });
 
@@ -31,7 +30,6 @@ export default function RootLayout({
     <html lang="es">
       <body className={`${inter.className} antialiased`}>
         {children}
-        <StickyCta />
       </body>
     </html>
   );

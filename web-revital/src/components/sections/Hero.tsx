@@ -9,8 +9,7 @@ export function Hero() {
             {/* resplandor amarillo de fondo */}
             <div
                 aria-hidden
-                className="pointer-events-none absolute -top-40 left-1/2 h-[500px] w-[800px] -translate-x-1/2 rounded-full bg-brand/20 blur-[120px]"
-            />
+                className="pointer-events-none absolute inset-x-0 bottom-0 h-24 bg-gradient-to-b from-transparent to-ink" />
 
             <div className="relative mx-auto flex max-w-4xl flex-col items-center px-4 pb-16 pt-10 text-center md:pb-24 md:pt-16">
                 <motion.div
@@ -44,8 +43,7 @@ export function Hero() {
                     transition={{ duration: 0.7, delay: 0.3 }}
                     className="mt-6 max-w-2xl text-lg text-paper/75 md:text-xl"
                 >
-                    Descripción corta de lo que haces, para quién es y qué cambio van a
-                    lograr. Dos líneas como máximo.
+                    Descripción corta.
                 </motion.p>
 
                 {/* CTA con pulso suave */}
