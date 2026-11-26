@@ -8,7 +8,7 @@ import { casosPrincipales, casosFinales } from "@/data/testimonios";
 
 export default function Home() {
   return (
-    <main className="pb-24 md:pb-0">
+    <main>
       <Hero />
       <VideoPresentacion />
       <Testimonios titulo="Casos de éxito" items={casosPrincipales} />
