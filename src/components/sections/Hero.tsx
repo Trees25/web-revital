@@ -33,8 +33,8 @@ export function Hero() {
                     transition={{ duration: 0.7, delay: 0.15 }}
                     className="mt-10 text-4xl font-black leading-tight tracking-tight md:text-6xl"
                 >
-                    Título principal que{" "}
-                    <span className="text-brand">promete el resultado</span> que tu cliente busca
+                    Lorem ipsum dolor sit amet, ceget.{" "}
+                    <span className="text-brand">olor sit amet</span> ipsum dolor sit
                 </motion.h1>
 
                 <motion.p
@@ -43,7 +43,7 @@ export function Hero() {
                     transition={{ duration: 0.7, delay: 0.3 }}
                     className="mt-6 max-w-2xl text-lg text-paper/75 md:text-xl"
                 >
-                    Descripción corta.
+                    onsectetur adipiscing elit. Donec vulputate, mauris porttitor consequat sagit
                 </motion.p>
 
                 {/* CTA con pulso suave */}

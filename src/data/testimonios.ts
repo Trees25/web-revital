@@ -1,12 +1,14 @@
 export type Testimonio = {
     nombre: string;
     rol?: string;
-    video?: string;   // ruta, ej: "/videos/maria.mp4"
+    video?: string;
+    poster?: string;   // ej: "/testimonios/videos/maria.jpg"
     foto?: string;
     texto?: string;
     ajuste?: "cover" | "contain"; // cover = recorta (default), contain = se ve completa
-    posicion?: string;  // ej: "top", "center", "50% 20%"
+    posicion?: string; // ej: "top", "center", "50% 20%
 };
+
 
 /*
 Si un caso tiene video y quieres mostrar también texto, agrega texto: "..." en el mismo objeto 
@@ -26,8 +28,8 @@ export const casosPrincipales: Testimonio[] = [
 ];
 
 export const casosFinales: Testimonio[] = [
-    { nombre: "Rodrigo Tapia", rol: "Cliente", video: "/testimonios/videos/rodrigoTapia.mp4" },
-    { nombre: "Fernando Garcia", rol: "Cliente", video: "/testimonios/videos/fernandoGarcia.mp4" },
-    { nombre: "Juan Manuel", rol: "Cliente", video: "/testimonios/videos/juanManuel.mp4" },
-    { nombre: "Alejandro", rol: "Cliente", video: "/testimonios/videos/alejandro.mp4" },
+    { nombre: "Rodrigo Tapia", rol: "Cliente", video: "/testimonios/videos/rodrigoTapia.mp4", poster: "/testimonios/videos/rodrigoTapia.jpg" },
+    { nombre: "Fernando Garcia", rol: "Cliente", video: "/testimonios/videos/fernandoGarcia.mp4", poster: "/testimonios/videos/fernandoGarcia.jpg" },
+    { nombre: "Juan Manuel", rol: "Cliente", video: "/testimonios/videos/juanManuel.mp4", poster: "/testimonios/videos/juanManuel.jpg" },
+    { nombre: "Alejandro", rol: "Cliente", video: "/testimonios/videos/alejandro.mp4", poster: "/testimonios/videos/alejandro.jpg" },
 ];

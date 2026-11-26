@@ -67,7 +67,7 @@ export function Testimonios({ titulo, items, oscuro = false }: Props) {
                                                 : "border-ink/10 bg-paper shadow-sm"
                                                 }`}
                                         >
-                                            {t.video && <VideoPlayer src={t.video} title={t.nombre} />}
+                                            {t.video && <VideoPlayer src={t.video} poster={t.poster} title={t.nombre} />}
 
                                             {t.foto && !t.video && (
                                                 <div className="relative aspect-[4/5] w-full overflow-hidden rounded-xl bg-ink/5">

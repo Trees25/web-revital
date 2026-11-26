@@ -9,20 +9,20 @@ import { CtaButton } from "../CtaButton";
 
 const preguntas = [
     {
-        q: "¿La consultoría realmente es gratuita?",
-        a: "Sí, es una primera reunión sin costo ni compromiso para conocer tu caso.",
+        q: "¿Lorem ipsum dolor si amet, consectetur adipiscing elit?",
+        a: "ipsum dolor sit",
     },
     {
-        q: "¿Cuánto dura la consultoría?",
-        a: "Respuesta de ejemplo. Reemplazar por la información real.",
+        q: "¿Lorem ipsum dolor st amet, consectetur adipiscing elit?",
+        a: "ipsum dolor sit",
     },
     {
-        q: "¿Para quién es este servicio?",
-        a: "Respuesta de ejemplo. Reemplazar por la información real.",
+        q: "¿Lorem ipsum dolor it amet, consectetur adipiscing elit?",
+        a: "ipsum dolor sit",
     },
     {
-        q: "¿Qué pasa después de agendar?",
-        a: "Respuesta de ejemplo. Reemplazar por la información real.",
+        q: "¿Lorem ipsum dolor amet, consectetur adipiscing elit?",
+        a: "ipsum dolor sit",
     },
 ];
 
